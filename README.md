@@ -36,4 +36,29 @@ To check the container running or exited
 ```bash
   docker ps -a
 ```
+To Pull image from the docker hub
 
+```bash
+  docked pull image_name
+```
+To create the container from the image                                               
+
+```bash
+  docker run image_name
+```
+To run the container in a detached mode.                                             
+
+```bash
+  docker run -d image_name
+```
+To remove the container                                               
+
+```bash
+  docker rm container_ID
+```
+To stop and start the docker                                            
+
+```bash
+  docker start name_container
+  docker stop name_container
+```
