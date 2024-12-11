@@ -51,10 +51,16 @@ To run the container in a detached mode.
 ```bash
   docker run -d image_name
 ```
-To remove the container                                               
+To remove the container and image                                              
 
 ```bash
   docker rm container_ID
+  docker rmi image_name
+```
+To remove the container after stopping it
+
+```bash
+  docker run -d --rm -name The_name, caontainer_name
 ```
 To stop and start the docker                                            
 
@@ -62,3 +68,4 @@ To stop and start the docker
   docker start name_container
   docker stop name_container
 ```
+
